@@ -9,10 +9,6 @@ pipeline {
 
  stages {
 
- stage('GIT') {
-
-           steps {
-
                git branch: 'main',
 
                url: ' https://github.com/zied-fad/testfoyer.git'
