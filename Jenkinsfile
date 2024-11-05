@@ -23,13 +23,7 @@ pipeline {
 
  stage ('clean Stage') {
 
- steps {
-
- sh 'mvn clean '
-
- }
-
- }
+ 
   stage ('Compile Stage') {
 
  steps {
