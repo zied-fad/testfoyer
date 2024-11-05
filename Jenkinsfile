@@ -21,9 +21,7 @@ pipeline {
 
      }
 
- stage ('clean Stage') {
 
- steps {
 
  
   stage ('Compile Stage') {
